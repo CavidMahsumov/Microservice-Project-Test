@@ -1,4 +1,4 @@
-using AccountService.API.Repositories;
+using AccountService.Data.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 

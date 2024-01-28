@@ -1,12 +1,12 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using System.Globalization;
 
-namespace AccountService.API.Entities
+namespace AccountService.Data.Entities
 {
     public class Player
     {
         [BsonId]
-        [BsonRepresentation(MongoDB.Bson.BsonType.String)]
+        [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
         public string Id { get; set; } = null!;
 
         [BsonRepresentation(MongoDB.Bson.BsonType.String)]
